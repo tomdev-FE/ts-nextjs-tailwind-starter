@@ -37,7 +37,7 @@ export default function HomePage() {
           </p>
           <p className='mt-2 text-sm text-gray-700'>
             <ArrowLink href='https://github.com/theodorusclarence/ts-nextjs-tailwind-starter'>
-              See the repository
+              See
             </ArrowLink>
           </p>
 
