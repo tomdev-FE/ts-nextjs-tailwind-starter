@@ -15,7 +15,7 @@
 
 This repository is 🔋 battery packed with:
 
-- ⚡️ Next.js 13 with App Router
+- ⚡️ Next.js 14 with App Router
 - ⚛️ React 18
 - ✨ TypeScript
 - 💨 Tailwind CSS 3 — Configured with CSS Variables to extend the **primary** color
@@ -40,10 +40,6 @@ You can also check all of the **details and demos** on my blog post:
 
 - [One-stop Starter to Maximize Efficiency on Next.js & Tailwind CSS Projects](https://theodorusclarence.com/blog/one-stop-starter)
 
-## Sponsors ❤️
-
-<a href="https://www.questlabs.ai/?utm_source=ts-nextjs-tailwind-starter" target="_blank"><img src="https://uploads-ssl.webflow.com/64f77a831b9d50c279dc926c/657c990e7259207969cf70bb_AI%20powered%20user%20engagement%20components.png" width="400" /></a>
-
 ## Getting Started
 
 ### 1. Clone this template using one of the three ways
@@ -59,7 +55,7 @@ You can also check all of the **details and demos** on my blog post:
 2. Using `create-next-app`
 
    ```bash
-   npx create-next-app -e https://github.com/theodorusclarence/ts-nextjs-tailwind-starter project-name
+   pnpm create next-app  -e https://github.com/theodorusclarence/ts-nextjs-tailwind-starter ts-pnpm
    ```
 
    If you still want to use **pages directory** (_is not actively maintained_) you can use this command
@@ -80,10 +76,10 @@ You can also check all of the **details and demos** on my blog post:
 
 ### 2. Install dependencies
 
-It is encouraged to use **yarn** so the husky hooks can work properly.
+It is encouraged to use **pnpm** so the husky hooks can work properly.
 
 ```bash
-yarn install
+pnpm install
 ```
 
 ### 3. Run the development server
@@ -91,7 +87,7 @@ yarn install
 You can start the server using this command:
 
 ```bash
-yarn dev
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result. You can start editing the page by modifying `src/pages/index.tsx`.
